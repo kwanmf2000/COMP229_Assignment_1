@@ -11,3 +11,11 @@ p {
     background-color: blanchedalmond;
     font-size: larger;
   }
+
+  li {
+    display: inline;
+  }
+
+  ul {
+    background-color:chartreuse;
+  }
