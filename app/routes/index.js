@@ -5,7 +5,7 @@ let indexController = require('../controllers/index');
 
 /* GET home page. */
 
-router.get('/home', indexController.home); //call the fuction "home" in controller and got to page "home"
+router.get('/', indexController.home); //call the fuction "home" in controller and got to page "home"
 
 router.get('/aboutme', indexController.about);
 
