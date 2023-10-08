@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* smaple code form course*/
 
 /**
  * Module dependencies.
