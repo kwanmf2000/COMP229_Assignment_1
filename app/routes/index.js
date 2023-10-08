@@ -18,7 +18,7 @@ router.get('/contacts', indexController.contact);
 router.post('/contact', (req, res) => {
     // enable redirect to home page when submit
     const { firstName, lastName, contactNumber, email, message } = req.body;
-    res.redirect('/home');
+    res.redirect('/');
   });
 
 module.exports = router;
